@@ -1,0 +1,146 @@
+.experience {
+  padding: 120px 8%;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 80px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(#2563eb, #60a5fa);
+  border-radius: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  margin-bottom: 70px;
+}
+
+.timeline-item.left {
+  left: 0;
+  padding-right: 70px;
+}
+
+.timeline-item.right {
+  left: 50%;
+  padding-left: 70px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 25px;
+  width: 20px;
+  height: 20px;
+  background: #2563eb;
+  border: 5px solid #0f172a;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #2563eb;
+}
+
+.timeline-item.left .timeline-dot {
+  right: -10px;
+}
+
+.timeline-item.right .timeline-dot {
+  left: -10px;
+}
+
+.timeline-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 30px;
+  transition: .35s;
+}
+
+.timeline-card:hover {
+  transform: translateY(-8px);
+  border-color: #2563eb;
+  box-shadow: 0 15px 35px rgba(37,99,235,.25);
+}
+
+.timeline-card span {
+  color: #60a5fa;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.timeline-card h3 {
+  color: #fff;
+  margin: 15px 0 8px;
+  font-size: 28px;
+}
+
+.timeline-card h4 {
+  color: #cbd5e1;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.timeline-card p {
+  color: #94a3b8;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+@media (max-width:900px) {
+
+.timeline::before {
+  left: 20px;
+}
+
+.timeline-item,
+.timeline-item.left,
+.timeline-item.right {
+  width: 100%;
+  left: 0;
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+.timeline-dot,
+.timeline-item.left .timeline-dot,
+.timeline-item.right .timeline-dot {
+  left: 10px;
+  right: auto;
+}
+
+.timeline-card h3 {
+  font-size: 24px;
+}
+
+}
+
+@media (max-width:600px) {
+
+.experience {
+  padding: 90px 6%;
+}
+
+.timeline-card {
+  padding: 22px;
+}
+
+.timeline-card h3 {
+  font-size: 22px;
+}
+
+.timeline-card h4 {
+  font-size: 16px;
+}
+
+.timeline-card p {
+  font-size: 15px;
+}
+
+}
