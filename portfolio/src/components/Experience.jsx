@@ -15,13 +15,13 @@ const experiences = [
     desc: "Developed a salon booking platform using React, Node.js, Express and MongoDB with authentication and booking features."
   },
   {
-    year: "2026",
+    year: "2025",
     title: "Django Developer",
     company: "Client Monitoring System",
     desc: "Designed and developed a CRM platform to manage clients, branches, payments, reports and support calls."
   },
   {
-    year: "2025",
+    year: "2024",
     title: "Started B.Tech",
     company: "Computer Science Engineering",
     desc: "Started my journey into software development, web technologies and Artificial Intelligence."

@@ -6,7 +6,7 @@ const education = [
   {
     degree: "Bachelor of Technology (B.Tech)",
     branch: "Computer Science Engineering (AI)",
-    college: "Your College Name",
+    college: "Bennett University",
     duration: "2024 - 2028",
     description:
       "Currently pursuing B.Tech with specialization in Artificial Intelligence. Focusing on AI/ML, Full Stack Development, Data Structures & Algorithms, and Software Engineering.",
